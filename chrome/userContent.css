@@ -1,23 +1,20 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1C1B22;
+    --image: url("logo-white.png");
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #F0F0F4;
+    --image: url("logo-black.png");
+  }
+}
+
+
 @-moz-document url(about:newtab), url(about:home){
   body {
-    background-color: #1C1B22 !important;
-  }
-
-  .logo-and-wordmark > .logo{
-    background-image: url("logo1.png") !important;
-    background-size: contain !important;
-    width: 500px !important;
-    height: 400px !important;
-  }
-  .logo-and-wordmark > .wordmark{
-    display: none !important;
-  }
-  .logo-and-wordmark > .wordmark::before{
-    display: none !important;
-  }
-
-
-  .search-inner-wrapper{
-    display: none !important;
+    background-color: var(--background-color) !important;
   }
 }
