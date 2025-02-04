@@ -11,7 +11,10 @@
 #alltabs-button {
 	display: none !important;
 }
-
+#urlbar-background {
+  border: none !important;
+  outline: none !important;
+}
 
 
 
