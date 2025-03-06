@@ -15,7 +15,10 @@
   border: none !important;
   outline: none !important;
 }
-
+#tabbrowser-tabbox {
+  box-shadow: none !important;
+  outline: none !important;
+}
 
 
 /* hide private browsing indicator in tabbar */
