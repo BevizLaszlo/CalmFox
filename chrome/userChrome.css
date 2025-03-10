@@ -19,6 +19,9 @@
   box-shadow: none !important;
   outline: none !important;
 }
+#vertical-spacer {
+  display: none !important;
+}
 
 
 /* hide private browsing indicator in tabbar */
@@ -41,7 +44,8 @@
 }
 
 #main-window[privatebrowsingmode="temporary"] #PlacesToolbarItems,
-#main-window[privatebrowsingmode="temporary"] toolbar#nav-bar {
+#main-window[privatebrowsingmode="temporary"] toolbar#nav-bar,
+#main-window[privatebrowsingmode="temporary"] #sidebar-main {
   background: var(--purple) !important;
 }
 
@@ -62,3 +66,21 @@
   border: none !important;
   outline: none !important;
 }
+
+
+/* center url and suggestions */
+/*
+#urlbar {
+  text-align: center !important;
+}
+
+.urlbarView-row {
+  justify-content: center !important;
+}
+.urlbarView-row-inner {
+  max-width: max-content !important;
+}
+.urlbarView-no-wrap {
+  max-width: 100% !important;
+}
+*/
