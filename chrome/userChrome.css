@@ -39,13 +39,14 @@
 #main-window[privatebrowsingmode="temporary"] #TabsToolbar,
 #main-window[privatebrowsingmode="temporary"] #titlebar,
 #main-window[privatebrowsingmode="temporary"] #urlbar,
-#main-window[privatebrowsingmode="temporary"] #urlbar-background {
+#main-window[privatebrowsingmode="temporary"] #urlbar-background{
   background: var(--dark-purple) !important;
 }
 
 #main-window[privatebrowsingmode="temporary"] #PlacesToolbarItems,
 #main-window[privatebrowsingmode="temporary"] toolbar#nav-bar,
-#main-window[privatebrowsingmode="temporary"] #sidebar-main {
+#main-window[privatebrowsingmode="temporary"] #sidebar-main,
+#main-window[privatebrowsingmode="temporary"] .urlbarView-row[selected] {
   background: var(--purple) !important;
 }
 
@@ -75,7 +76,7 @@
 }
 
 .urlbarView-row {
-  justify-content: flex-start !important;
+  justify-content: start !important;
 }
 .urlbarView-row-inner {
   max-width: max-content !important;
