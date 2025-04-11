@@ -69,13 +69,13 @@
 
 
 /* center url and suggestions */
-/*
+
 #urlbar {
   text-align: center !important;
 }
 
 .urlbarView-row {
-  justify-content: center !important;
+  justify-content: flex-start !important;
 }
 .urlbarView-row-inner {
   max-width: max-content !important;
@@ -83,4 +83,3 @@
 .urlbarView-no-wrap {
   max-width: 100% !important;
 }
-*/
