@@ -1,4 +1,5 @@
-<h1 align=center>CleanTheme - Firefox</h1>
+<h1 align=center>CalmFox</h1>
+<p align=center>A theme for Firefox browsers with minimal changes</p>
 
 ![ftheme](https://github.com/user-attachments/assets/e05444fd-e5f3-4d46-8b7a-53c2ff07cb2e)
 
