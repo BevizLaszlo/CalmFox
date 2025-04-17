@@ -46,7 +46,8 @@
 #main-window[privatebrowsingmode="temporary"] #PlacesToolbarItems,
 #main-window[privatebrowsingmode="temporary"] toolbar#nav-bar,
 #main-window[privatebrowsingmode="temporary"] #sidebar-main,
-#main-window[privatebrowsingmode="temporary"] .urlbarView-row[selected] {
+#main-window[privatebrowsingmode="temporary"] .urlbarView-row[selected],
+#main-window[privatebrowsingmode="temporary"] .panel-viewstack>panelview {
   background: var(--purple) !important;
 }
 
