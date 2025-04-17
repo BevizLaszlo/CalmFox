@@ -1,26 +1,26 @@
 :root {
-  --dark-purple: #25003E;
-  --purple: #2f014d;
-  --light-purple: #4a027a;
+    --dark-purple: #25003E;
+    --purple: #2f014d;
+    --light-purple: #4a027a;
 }
 
 #PlacesToolbarItems {
-  display: flex !important;
-  justify-content: center !important;
+    display: flex !important;
+    justify-content: center !important;
 }
 #alltabs-button {
-	display: none !important;
+    display: none !important;
 }
 #urlbar-background {
-  border: none !important;
-  outline: none !important;
+    border: none !important;
+    outline: none !important;
 }
 #tabbrowser-tabbox {
-  box-shadow: none !important;
-  outline: none !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 #vertical-spacer {
-  display: none !important;
+    display: none !important;
 }
 
 
@@ -32,56 +32,58 @@
 
 /* Color private browsing window */
 #main-window[privatebrowsingmode="temporary"] #TabsToolbar {
-  appearance: none !important;
-  -moz-appearance: none !important;
+    appearance: none !important;
+    -moz-appearance: none !important;
 }
 
 #main-window[privatebrowsingmode="temporary"] #TabsToolbar,
 #main-window[privatebrowsingmode="temporary"] #titlebar,
 #main-window[privatebrowsingmode="temporary"] #urlbar,
 #main-window[privatebrowsingmode="temporary"] #urlbar-background{
-  background: var(--dark-purple) !important;
+    background: var(--dark-purple) !important;
 }
 
 #main-window[privatebrowsingmode="temporary"] #PlacesToolbarItems,
 #main-window[privatebrowsingmode="temporary"] toolbar#nav-bar,
 #main-window[privatebrowsingmode="temporary"] #sidebar-main,
 #main-window[privatebrowsingmode="temporary"] .urlbarView-row[selected],
-#main-window[privatebrowsingmode="temporary"] .panel-viewstack>panelview {
-  background: var(--purple) !important;
+#main-window[privatebrowsingmode="temporary"] .panel-viewstack>panelview,
+#main-window[privatebrowsingmode="temporary"] #sidebar-box,
+#main-window[privatebrowsingmode="temporary"] #sidebar{
+    background: var(--purple) !important;
 }
 
 #main-window[privatebrowsingmode="temporary"] .tab-background[selected] {
-  background-color: var(--light-purple) !important;
+    background-color: var(--light-purple) !important;
 }
 #main-window[privatebrowsingmode="temporary"] #PlacesToolbar menupopup[placespopup="true"],
 #main-window[privatebrowsingmode="temporary"] #appMenu-popup,
 #main-window[privatebrowsingmode="temporary"] #PanelUI-popup {
-  --arrowpanel-background: var(--purple) !important;
+    --arrowpanel-background: var(--purple) !important;
 }
 
 #main-window[privatebrowsingmode="temporary"] toolbar#nav-bar {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 #main-window[privatebrowsingmode="temporary"] #urlbar-background {
-  border: none !important;
-  outline: none !important;
+    border: none !important;
+    outline: none !important;
 }
 
 
 /* center url and suggestions */
 
 #urlbar {
-  text-align: center !important;
+    text-align: center !important;
 }
 
 .urlbarView-row {
-  justify-content: start !important;
+    justify-content: start !important;
 }
 .urlbarView-row-inner {
-  max-width: max-content !important;
+    max-width: max-content !important;
 }
 .urlbarView-no-wrap {
-  max-width: 100% !important;
+    max-width: 100% !important;
 }
