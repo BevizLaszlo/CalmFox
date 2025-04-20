@@ -12,7 +12,7 @@
 
 ## Installation
 
-To install this theme, simply copy the `chrome` folder included in this repository to your Firefox profile directory. Follow these steps:
+To install this theme, download and extract the `chrome.zip` from the <a href='https://github.com/BevizLaszlo/CalmFox/releases/latest'>latest release</a>. Then follow these steps:
 
 1.  **Open Firefox Profile Directory:**
     * In Firefox, type `about:support` in the address bar and press Enter.
@@ -20,7 +20,7 @@ To install this theme, simply copy the `chrome` folder included in this reposito
     * Click the "Open Directory" button (or "Show in Finder" on macOS). This will open your Firefox profile folder in file manager.
 
 2.  **Copy the `chrome` Folder:**
-    * Copy the entire `chrome` folder from this repository into your Firefox profile directory.
+    * Copy the extracted `chrome` folder into your Firefox profile directory.
 
 3.  **Enable CSS Modifications:**
     * In Firefox, type `about:config` in the address bar and press Enter.
