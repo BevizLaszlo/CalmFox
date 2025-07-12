@@ -115,7 +115,7 @@
     width: 1px !important;
     overflow: hidden !important;
     z-index: 1000 !important;
-    transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1) 0.3s !important;
+    transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
     background-color: var(--toolbox-bgcolor) !important;
 }
 
