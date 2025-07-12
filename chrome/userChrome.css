@@ -54,7 +54,8 @@
     background: var(--purple) !important;
 }
 
-#main-window[privatebrowsingmode="temporary"] .tab-background[selected] {
+#main-window[privatebrowsingmode="temporary"] .tab-background[selected],
+#main-window[privatebrowsingmode="temporary"] #urlbar-searchmode-switcher {
     background-color: var(--light-purple) !important;
 }
 #main-window[privatebrowsingmode="temporary"] #PlacesToolbar menupopup[placespopup="true"],
@@ -70,6 +71,16 @@
 #main-window[privatebrowsingmode="temporary"] #urlbar-background {
     border: none !important;
     outline: none !important;
+}
+
+/* private window remove profile icon and replace priwate browsing indicator icon */
+
+#main-window[privatebrowsingmode="temporary"] .private-browsing-indicator-with-label {
+    order: -1 !important;
+    margin-left: 11px !important;
+}
+#main-window[privatebrowsingmode="temporary"] #fxa-toolbar-menu-button {
+    display: none !important;
 }
 
 
