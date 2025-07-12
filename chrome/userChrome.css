@@ -87,3 +87,21 @@
 .urlbarView-no-wrap {
     max-width: 100% !important;
 }
+
+
+/* vertical tabs hidden and hover effect */
+
+#sidebar-launcher-splitter {
+    display: none !important;
+}
+
+#sidebar-main {
+    width: 1px !important;
+    overflow: hidden !important;
+    transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1) 0.3s !important;
+}
+
+#sidebar-main:hover {
+    width: 220px !important;
+    transition: width 0.2s !important;
+}
