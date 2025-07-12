@@ -49,6 +49,7 @@
 #main-window[privatebrowsingmode="temporary"] .urlbarView-row[selected],
 #main-window[privatebrowsingmode="temporary"] .panel-viewstack>panelview,
 #main-window[privatebrowsingmode="temporary"] #sidebar-box,
+#main-window[privatebrowsingmode="temporary"] #sidebar-main,
 #main-window[privatebrowsingmode="temporary"] #sidebar{
     background: var(--purple) !important;
 }
@@ -96,9 +97,15 @@
 }
 
 #sidebar-main {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
     width: 1px !important;
     overflow: hidden !important;
+    z-index: 1000 !important;
     transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1) 0.3s !important;
+    background-color: var(--toolbox-bgcolor) !important;
 }
 
 #sidebar-main:hover {
