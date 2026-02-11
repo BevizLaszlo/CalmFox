@@ -1,7 +1,7 @@
 :root {
-    --dark-purple: #25003E;
-    --purple: #2f014d;
-    --light-purple: #4a027a;
+    --dark-purple: #231536;
+    --purple: #392c4b;
+    --light-purple: #3a1864;
 }
 #PlacesToolbarItems {
     display: flex !important;
@@ -11,7 +11,8 @@
     border: none !important;
     outline: none !important;
 }
-#tabbrowser-tabbox {
+#tabbrowser-tabbox,
+.browserContainer {
     box-shadow: none !important;
     outline: none !important;
 }
@@ -27,6 +28,7 @@
     appearance: none !important;
     -moz-appearance: none !important;
 }
+#main-window[privatebrowsingmode="temporary"] .tab-background[selected],
 #main-window[privatebrowsingmode="temporary"] #TabsToolbar,
 #main-window[privatebrowsingmode="temporary"] #titlebar,
 #main-window[privatebrowsingmode="temporary"] #urlbar,
@@ -43,7 +45,7 @@
 #main-window[privatebrowsingmode="temporary"] #sidebar {
     background: var(--purple) !important;
 }
-#main-window[privatebrowsingmode="temporary"] .tab-background[selected],
+
 #main-window[privatebrowsingmode="temporary"] #urlbar-searchmode-switcher,
 #main-window[privatebrowsingmode="temporary"] .searchmode-switcher-chicklet {
     background-color: var(--light-purple) !important;
