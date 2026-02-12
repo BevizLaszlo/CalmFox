@@ -1,10 +1,16 @@
+
 <h1 align=center>CalmFox</h1>
 <p align=center>A theme for Firefox browsers with minimal changes to the original UI</p>
 
-![ftheme](https://github.com/user-attachments/assets/e05444fd-e5f3-4d46-8b7a-53c2ff07cb2e)
+<div align="center">
+   
+![review](https://github.com/user-attachments/assets/7ce8f063-1278-41f1-8e66-1518a9541d91)
+
+</div>
 
 ## Features
 
+* **Sidebear is only visible on hover**
 * **Purple Private Browsing**
 * **Homepage Color:** home page is slightly recolored based on your system's preferred color scheme (light or dark).
 * **Centered URL Bar**
@@ -30,11 +36,3 @@ To install this theme, download and extract the `chrome.zip` from the <a href='h
 
 4.  **Restart Firefox:**
     * Close and restart Firefox for the changes to take effect.
-
-## Customization
-
-You can further customize the colors by modifying the `--dark-purple`, `--purple`, and `--light-purple` variables at the beginning of the `userChrome.css` file within the `chrome` folder. Experiment with different hex color codes to achieve your desired look.
-
-## Contributing
-
-Feel free to contribute to this theme by submitting pull requests with improvements or bug fixes.
