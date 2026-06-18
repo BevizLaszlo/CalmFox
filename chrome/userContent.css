@@ -15,7 +15,14 @@
   }
 }
 @-moz-document url(about:privatebrowsing){
-
-    html.private{background-color: #392c4b !important;}
-
+    html.private {
+        background: #392c4b !important;
+    }
+    html.private .search-handoff-button {
+        box-shadow: none !important;
+        border: none !important;
+    }
+    html.private .info-border {
+        visibility: hidden !important;
+    }
 }
