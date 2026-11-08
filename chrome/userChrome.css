@@ -41,7 +41,7 @@
 #main-window[privatebrowsingmode="temporary"] .urlbarView-row[selected],
 #main-window[privatebrowsingmode="temporary"] .panel-viewstack > panelview,
 #main-window[privatebrowsingmode="temporary"] #sidebar-box,
-#main-window[privatebrowsingmode="temporary"] #sidebar-main,
+#main-window[privatebrowsingmode="temporary"] #sidebar-container,
 #main-window[privatebrowsingmode="temporary"] #sidebar {
     background: var(--purple) !important;
 }
@@ -58,9 +58,9 @@
 #main-window[privatebrowsingmode="temporary"] toolbar#nav-bar {
     box-shadow: none !important;
 }
-#main-window[privatebrowsingmode="temporary"] .private-browsing-indicator-with-label {
+#main-window[privatebrowsingmode="temporary"] .private-browsing-indicator-button {
     order: -1 !important;
-    margin-left: 11px !important;
+    margin-left: 4px !important;
 }
 #urlbar {
     text-align: center !important;
@@ -74,7 +74,7 @@
 .urlbarView-no-wrap {
     max-width: 100% !important;
 }
-#sidebar-main {
+#sidebar-container {
     position: absolute !important;
     left: 0 !important;
     top: 0 !important;
@@ -85,7 +85,7 @@
     transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1) !important;
     background-color: var(--toolbox-background-color) !important;
 }
-#sidebar-main:hover {
+#sidebar-container:hover {
     width: 220px !important;
     transition: width 0.2s !important;
 }
